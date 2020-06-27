@@ -64,8 +64,8 @@ Widget _buildReorderableListSimple(BuildContext context) {
   }
 
   List<Task> getList(){
-    for (int i = 0; i < 10; i++) {
-      taskList.add(new Task("Task " + i.toString(), false, i.toString()));
+    for (int i = 0; i < 2; i++) {
+      taskList.add(new Task("Info " + i.toString(), false, i.toString()));
     }
     return taskList;
   }
