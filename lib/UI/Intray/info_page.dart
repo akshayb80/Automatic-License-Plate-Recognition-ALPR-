@@ -13,7 +13,7 @@ class InfoPage extends StatefulWidget {
 //http://27a48a2a7272.ngrok.io/registration/3
 class _InfoPageState extends State<InfoPage> {
   Future<Registration> _getRegistrations() async {
-    var data = await http.get("http://00b07b5bc835.ngrok.io/registration/3");
+    var data = await http.get("https://7150c8ede0d2.ngrok.io/registration/4");
 
     var jsonData = jsonDecode(data.body);
     Registration registration = Registration.fromJson(jsonData);

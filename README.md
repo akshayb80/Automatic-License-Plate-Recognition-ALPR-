@@ -4,7 +4,7 @@
 
 ## Team members
 * Akshay Bakshi - apbakshi@hotmail.com
-* Nikhil Sharma - Email
+* Nikhil Sharma - nikhil0512gwl@gmail.com
 * Shivam Pawar - vivekrajput8244@gmail.com
 * Vivek Rajput - shivamdarasingpawar@gmail.com
 
