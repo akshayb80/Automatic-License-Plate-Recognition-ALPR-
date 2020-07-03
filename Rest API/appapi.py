@@ -20,8 +20,8 @@ ma = Marshmallow(app)
 
 class Registration(db.Model):
     __tablename__ = 'registrations'
-    id = db.Column(db.Integer, unique_key = True)
-    plate_num = db.Column(db.String(50), unique = True, primary_key = True)
+    id = db.Column(db.Integer, unique_key = True, primary_key = True)
+    plate_num = db.Column(db.String(50), unique = True)
     owner = db.Column(db.String(100))
     maker_model = db.Column(db.String(200))
     vehicle_class = db.Column(db.String(100))
@@ -108,12 +108,14 @@ def update_registration(id):
 def delete_registration(id):
     registration = Registration.query.get(id)
     db.session.delete(registration)
+    Session.query(table).filter_by(userid=user).delete(synchronize_session='fetch')
     db.session.commit()
     return register_schema.jsonify(registration)
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.debug = True
+    app.run()
 
 
 

@@ -1,11 +1,15 @@
 import 'dart:io';
 
+import 'package:App/UI/Intray/info_page.dart';
 import 'package:flappy_search_bar/flappy_search_bar.dart';
 import 'package:flappy_search_bar/search_bar_style.dart';
 import 'package:flutter/material.dart';
 import 'models/global.dart';
 import 'UI/Intray/intray_page.dart';
 import 'package:image_picker/image_picker.dart';
+
+import 'models/global.dart';
+import 'models/global.dart';
 
 void main() {
   runApp(MyApp());
@@ -88,11 +92,9 @@ class _MyHomePageState extends State<MyHomePage> {
               TabBarView(
                 children: [
                   IntrayPage(),
+                  InfoPage(),
                   new Container(
-                    color: Colors.orange,
-                  ),
-                  new Container(
-                    color: Colors.lightGreen,
+                    color: darkGreyColor,
                   ),
                 ],
               ),
@@ -160,7 +162,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     icon: new Icon(Icons.home),
                   ),
                   Tab(
-                    icon: new Icon(Icons.rss_feed),
+                    icon: new Icon(Icons.info),
                   ),
                   Tab(
                     icon: new Icon(Icons.perm_identity),

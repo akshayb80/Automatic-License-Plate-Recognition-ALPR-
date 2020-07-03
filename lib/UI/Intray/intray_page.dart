@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:App/models/global.dart';
 
 class IntrayPage extends StatefulWidget {
-
   @override
   _IntrayPageState createState() => _IntrayPageState();
 }
@@ -34,24 +33,23 @@ class _IntrayPageState extends State<IntrayPage> {
     );
   }
 
-Widget _buildReorderableListSimple(BuildContext context) {
-  return Theme(
-    data: ThemeData(
-      canvasColor: Colors.transparent
-    ),
+  Widget _buildReorderableListSimple(BuildContext context) {
+    return Theme(
+      data: ThemeData(canvasColor: Colors.transparent),
       child: ReorderableListView(
-      padding: EdgeInsets.only(top: 200.0),
-      children: taskList.map((Task item) => _buildListTile(context, item)).toList(),
-      onReorder: (oldIndex, newIndex) {
-        setState(() {
-          Task item = taskList[oldIndex];
-          taskList.remove(item);
-          taskList.insert(newIndex, item);
-        });
-      },
-    ),
-  );
-}
+        padding: EdgeInsets.only(top: 200.0),
+        children:
+            taskList.map((Task item) => _buildListTile(context, item)).toList(),
+        onReorder: (oldIndex, newIndex) {
+          setState(() {
+            Task item = taskList[oldIndex];
+            taskList.remove(item);
+            taskList.insert(newIndex, item);
+          });
+        },
+      ),
+    );
+  }
 
   void _onReorder(int oldIndex, int newIndex) {
     setState(() {
@@ -63,11 +61,7 @@ Widget _buildReorderableListSimple(BuildContext context) {
     });
   }
 
-  List<Task> getList(){
-    for (int i = 0; i < 2; i++) {
-      taskList.add(new Task("Info " + i.toString(), false, i.toString()));
-    }
+  List<Task> getList() {
     return taskList;
   }
 }
-
