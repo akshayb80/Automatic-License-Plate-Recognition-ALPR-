@@ -100,12 +100,6 @@ python appapi.py
 >We're working on developing the real time functionality in the app. It can be also used for vehicle speed control and vehicle location tracking. Also, it can further extended as multilangual ALPR to identify the language of characters automatically based on the training data. It will provide various benefits like traffic safety enforcement, security in case of suspicious activity by vehicles.
 
 ## Screenshots
-Add a few screenshots here to give the viewer a quick idea of what your project looks like. After all, a picture speaks a thousand words.
 
-You'll have to link the screenshots from your drive folder here.
-
-![Screenshot alt text](https://edtimes.in/wp-content/uploads/2018/09/NikeMeme10-640x633.jpg "Here is a screenshot")
-
-Use this template as a guide for writing your documentation. Feel free to customize and adapt it for you project.
-For more Markdown syntax help, visit [here](https://www.markdownguide.org/basic-syntax/)
+![App Screenshort](App_screenshot.jpg "Here is a screenshot")
 
