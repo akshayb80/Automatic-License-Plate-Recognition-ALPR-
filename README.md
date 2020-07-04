@@ -26,10 +26,6 @@ The ALPR system consists of following steps:-
 
 For the frontend, we have made a Flutter Mobile Application that does all of the above steps.
 
-Don't forget to replace the link here with **_your own Github repository_** link.
-
-Along with this, add the link of the drive folder that contains the app APK/Screenshots/Screen Recordings. If you have hosted your project on the web, add that link as well.
-
 * [Link to repository](https://github.com/akshayb80/Automatic-License-Plate-Recognition-ALPR-)
 * [Google Drive Link](https://drive.google.com/drive/folders/10YfLOcAPhNM3nTKsAh86JRXvLxqU5BVZ)
 * [App APK Link](https://drive.google.com/drive/folders/10YfLOcAPhNM3nTKsAh86JRXvLxqU5BVZ)
