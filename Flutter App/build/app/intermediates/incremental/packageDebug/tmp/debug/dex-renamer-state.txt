@@ -1,0 +1,4 @@
+#Sat Jul 04 11:52:47 IST 2020
+base.0=C\:\\Users\\apbak\\Desktop\\ALPR App\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
