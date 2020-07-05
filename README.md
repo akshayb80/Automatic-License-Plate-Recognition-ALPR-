@@ -96,7 +96,6 @@ python appapi.py
 >We're working on developing the real time functionality in the app. It can be also used for vehicle speed control and vehicle location tracking. Also, it can further extended as multilangual ALPR to identify the language of characters automatically based on the training data. It will provide various benefits like traffic safety enforcement, security in case of suspicious activity by vehicles.
 
 ## Screenshots
-10iVoYUm2HyUNCiYRowZ5ut3iuqsfvLIo
 
 ![App_screenshot](https://user-images.githubusercontent.com/64036185/86537876-dceaa000-bf0f-11ea-91d8-2c87747c310d.jpg)
 
